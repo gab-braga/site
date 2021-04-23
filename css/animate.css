@@ -1,0 +1,23 @@
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-20deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    80% {
+        transform: rotate(-20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+main .box-contacts .box-contacts-container img:hover {
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
