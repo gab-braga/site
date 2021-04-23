@@ -1,0 +1,15 @@
+footer {
+    width: 100%;
+    height: 8rem;
+    background-color: var(--color-background-secondary) !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer span {
+	font-family: 'Recursive', sans-serif;
+    font-size: 1.2rem;
+    color: var(--color-legend);
+}
