@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Braga</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/animate.css">
+
+</head>
+<body>
+    <header>
+		<div>
+			<div class="btn-menu" onclick="show_menu()" style="background-image: url(./images/icons/menu-icon.svg)"></div>
+		</div>
+
+		<nav class="menu">
+			<a href="#home" onclick="show_menu()">Home</a>
+			<a href="#quem-sou" onclick="show_menu()">Quem sou</a>
+			<a href="#habilidades" onclick="show_menu()">Habilidades</a>
+			<a href="#portfolio" onclick="show_menu()">Portfolio</a>
+			<a href="#contatos" onclick="show_menu()">Contato</a>
+		</nav>
+	</header>
+
+    <main>
+        <!--HOME-->
+        <div id="home" class="box-home box box-image">
+			<img src="./images/perfil.jpg" alt="Gabriel Braga">
+			<h1>
+				OLÁ!<br>Muito prazer, meu nome é<br>Gabriel Braga
+			</h1>
+		</div>
+
+        <!--QUEM SOU-->
+        <div id="quem-sou" class="box-about-me box">
+            <h2>Quem sou</h2>
+            <hr>
+            <div class="box-about-me-container">
+                <p>
+                    Meu nome é Gabriel Braga, tenho 19 anos, sou estudante de Ciência da Computação, resido em Guaraciaba do Norte, CE - Brasil.<br><br>
+                    Sou desenvolvedor em esperimento, estudo programação dês de 2017. Diplomado técnico em informática, tenho experiência em criação de websites e aplicativos.<br><br>
+                    Apaixonado pelo desenvolvimento de software, estudo e prático programação em casa. Crio pequenos projetos para desenvolver cada vez mais minha experiência.<br><br>
+                    Acredito que o sucesso é alcançado através de pequenos esforços que são repetidos dia após dia com foco, dedicação e vontade.
+                </p>
+            </div>
+        </div>
+
+        <!--HABILIDADES-->
+        <div id="habilidades" class="box-skills box">
+			<h2>Habilidades</h2>
+            <div class="box-skills-container">
+                <img src="./images/skills/1.png" alt="Java">
+                <img src="./images/skills/2.png" alt="MySQL">
+                <img src="./images/skills/3.png" alt="JavaScript">
+                <img src="./images/skills/4.png" alt="HTML">
+                <img src="./images/skills/5.png" alt="CSS">
+                <img src="./images/skills/6.png" alt="WordPress">
+                <img src="./images/skills/7.png" alt="C">
+            </div>
+		</div>
+
+        <!--PORTFOLIO-->
+        <div id="portfolio" class="box-portfolio box">
+			<h2>Portfolio</h2>
+			<hr>
+			<div class="box-portfolio-container">
+				<div>
+					<a href="https://github.com/F-Gabriel-Braga/pede-limpeza/" target="_blank"><h3>Pede Limpeza</h3><img src="./images/portfolio/pede-limpeza.jpg" alt="Pede Limpeza"></a>
+				</div>
+				<div>
+					<a href="https://github.com/F-Gabriel-Braga/music-player/" target="_blank"><h3>Music Player</h3><img src="./images/portfolio/music-player.jpg" alt="Music Player"></a>
+				</div>
+				<div>
+					<a href="https://github.com/F-Gabriel-Braga/agenda-telefonica/" target="_blank"><h3>Agenda Telefônica</h3><img src="./images/portfolio/agenda-telefonica.jpg" alt="Agenda Telefônica"></a>
+					
+				</div>
+			</div>
+		</div>
+
+        <!--CONTATOS-->
+        <div id="contatos" class="box-contacts box">
+			<h2>Contatos</h2>
+			<div class="box-contacts-container">
+				<a href="https://www.instagram.com/_gabriel_bra/" target="_blank"><img src="./images/icons/icon-instagram.svg" alt="Instagram"></a>
+				<a href="https://www.linkedin.com/in/f-gabriel-braga/" target="_blank"><img src="./images/icons/icon-linkedin.svg" alt="LinkedIn"></a>
+				<a href="https://github.com/F-Gabriel-Braga/" target="_blank"><img src="./images/icons/icon-github.svg" alt="GitHub"></a>
+			</div>
+		</div>
+
+    </main>
+
+	<footer>
+		<span>Created by Gabriel Braga</span>
+	</footer>
+    
+    <script src="./js/script-menu.js"></script>
+</body>
+</html>
