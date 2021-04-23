@@ -1,0 +1,40 @@
+/*COLORS*/
+main .box-home {
+    background: none;
+}
+
+main .box-skills,
+main .box-contacts {
+    background-color: var(--color-background-primary);
+}
+
+main .box-about-me,
+main .box-portfolio {
+    background-color: var(--color-background-secondary);
+}
+
+main .box-home h1,
+main .box-skills h2,
+main .box-contacts h2 {
+    color: var(--color-white);
+}
+
+main .box-about-me h2,
+main .box-portfolio h2 {
+    color: var(--color-primary);
+}
+
+main .box-home hr,
+main .box-skills hr,
+main .box-contacts hr {
+    height: 2px;
+    border: none;
+    background-color: var(--color-secondary);
+}
+
+main .box-about-me hr,
+main .box-portfolio hr {
+    height: 2px;
+    border: none;
+    background-color: var(--color-primary);
+}
