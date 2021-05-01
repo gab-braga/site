@@ -20,17 +20,27 @@
 
 </head>
 <body>
-    <header>
-		<div>
-			<div class="btn-menu" onclick="show_menu()" style="background-image: url(./images/icons/menu-icon.svg)"></div>
+    <header class="header">
+		<div class="box-header">
+			<div class="btn-menu" onclick="open_and_close_menu()"></div>
 		</div>
 
 		<nav class="menu">
-			<a href="#home" onclick="show_menu()">Home</a>
-			<a href="#quem-sou" onclick="show_menu()">Quem sou</a>
-			<a href="#habilidades" onclick="show_menu()">Habilidades</a>
-			<a href="#portfolio" onclick="show_menu()">Portfolio</a>
-			<a href="#contatos" onclick="show_menu()">Contato</a>
+            <div class="item-memu">
+                <a href="#home" onclick="open_and_close_menu()">Home</a>
+            </div>
+            <div class="item-memu">
+                <a href="#quem-sou" onclick="open_and_close_menu()">Quem sou</a>
+            </div>
+            <div class="item-memu">
+			    <a href="#habilidades" onclick="open_and_close_menu()">Habilidades</a>
+            </div>
+            <div class="item-memu">
+			    <a href="#portfolio" onclick="open_and_close_menu()">Portfolio</a>
+            </div>
+            <div class="item-memu">
+			    <a href="#contatos" onclick="open_and_close_menu()">Contato</a>
+            </div>
 		</nav>
 	</header>
 

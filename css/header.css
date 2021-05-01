@@ -1,4 +1,4 @@
-header {
+.header {
 	position: fixed;
 	width: 100%;
 	height: 8rem;
@@ -17,25 +17,30 @@ header {
 	transition: height 0.3s ease-in-out;
 }
 
-header div:first-child {
+.header .box-header {
 	width: 100%;
 	height: 8rem;
 	padding: 2rem 0 2rem 2rem;
 }
 
-header div:first-child .btn-menu {
-	content: "";
+.header .box-header .btn-menu {
 	width: 4rem;
 	height: 4rem;
+	cursor: pointer;
 
 	background-image: url('../images/icons/menu-icon.svg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
-	cursor: pointer;
+
+	-webkit-transition: background-image 0.3s linear;
+	-moz-transition: background-image 0.3s linear;
+	-ms-transition: background-image 0.3s linear;
+	-o-transition: background-image 0.3s linear;
+	transition: background-image 0.3s linear;
 }
 
-header .menu {
+.header .menu {
     display: none;
 
 	width: 100%;
@@ -45,14 +50,9 @@ header .menu {
 
 }
 
-header .menu a {
-	display: block;
+.header .menu .item-memu {
     width: 100%;
-	opacity: 1;
 	text-decoration: none;
-	font-family: 'Recursive', sans-serif;
-	color: var(--color-primary);
-	font-size: 4rem;
 	padding: 0.5rem 4rem;
 
 	border-bottom: 2px solid var(--color-border);
@@ -64,11 +64,77 @@ header .menu a {
 	transition: background 0.15s linear;
 }
 
-header .menu a:first-child {
+.header .menu .item-memu:first-child {
 	border-top: 2px solid var(--color-border);
 }
 
-header .menu a:hover {
-	background-color: var(--color-primary);
-	color: var(--color-secondary);
+.header .menu .item-memu:hover {
+	background-color: #464646;
+}
+
+.header .menu .item-memu a {
+	width: 100%;
+
+	font-size: 4rem;
+	text-decoration: none;
+	opacity: 1;
+	font-family: 'Recursive', sans-serif;
+	color: var(--color-primary);
+}
+
+.not-hidden-menu {
+	height: 100vh;
+}
+
+.not-hidden-menu .menu {
+	display: block;
+}
+
+.not-hidden-menu div:first-child .btn-menu {
+	background-image: url('../images/icons/close-icon.svg');
+}
+
+@media (min-width: 1000px) {
+	.not-hidden-menu,
+	.header {
+		height: 8rem;
+	}
+
+	.header .box-header {
+		display: none;
+	}
+
+	.not-hidden-menu .menu,
+	.header .menu {
+		width: 100%;
+		height: 100%;
+		padding: 0 5rem;
+		max-width: 1300px;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 0 auto;
+	
+	}
+	
+	.header .menu .item-memu {
+		width: 20%;
+		border: none !important;
+	}
+
+	.header .menu .item-memu a {
+		font-size: 2rem;
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+
+@media (min-width: 1250px) {
+	.header .menu .item-memu a {
+		font-size: 3rem;
+	}
 }
