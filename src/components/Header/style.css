@@ -2,6 +2,7 @@
     width: 100%;
     padding: 30px;
     position: fixed;
+    z-index: 999;
 }
 
 .header .menu {
@@ -28,4 +29,11 @@
 .header .menu .item:hover {
     border-bottom: 2px solid #0085FF;
     color: #0085FF;
+}
+
+@media(max-width: 500px) {
+    .header .menu .item {
+        font-size: 1.1rem;
+        width: 75px;
+    }
 }

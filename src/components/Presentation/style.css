@@ -23,3 +23,39 @@
     height: 400px;
     border-radius: 100px;
 }
+
+@media(max-width: 1100px) {
+    .presentation .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .presentation img {
+        width: 350px;
+        height: 350px;
+        border-radius: 87px;
+        order: -1;
+    }
+
+    .presentation h3 {
+        margin-top: 40px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .presentation img {
+        width: 250px;
+        height: 250px;
+        border-radius: 62px;
+        order: -1;
+    }
+
+    .presentation h3 {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 2.5rem;
+        width: 320px;
+    }
+}

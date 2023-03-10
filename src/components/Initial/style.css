@@ -23,3 +23,17 @@
     height: 2px;
     background-color: #FFFFFF;
 }
+
+@media(max-width: 800px) {
+    .initial h1 {
+        font-size: 7rem;
+    }
+
+    .initial h2 {
+        font-size: 2rem;
+    }
+
+    .initial hr {
+        width: 320px;
+    }
+}

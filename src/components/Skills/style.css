@@ -10,6 +10,8 @@
 }
 
 .skills .grid img {
+    width: 150px;
+    width: 150px;
     filter: grayscale(100%);
     opacity: 0.7;
 
@@ -20,4 +22,33 @@
 .skills .grid img:hover {
     filter: none;
     opacity: 1;
+}
+
+@media(max-width: 1100px) {
+    .skills .right {
+        order: -1;
+    }
+}
+
+@media(max-width: 800px) {
+    .skills .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skills .grid img {
+        width: 100px;
+        width: 100px;
+    }
+}
+
+@media(max-width: 450px) {
+    .skills .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .skills .grid img {
+        width: 80px;
+        width: 80px;
+    }
 }

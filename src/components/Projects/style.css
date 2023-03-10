@@ -1,9 +1,29 @@
 .projects .grid {
     width: 100%;
+        margin: 0 auto;
     
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+@media(max-width: 1400px) {
+    .projects .grid {
+        width: clamp(300px, 100%, 1000px);
+    }
+}
+
+@media(max-width: 1050px) {
+    .projects .grid {
+        width: clamp(300px, 100%, 640px);
+    }
+}
+
+@media(max-width: 720px) {
+    .projects .grid {
+        justify-content: center;
+    }
 }
