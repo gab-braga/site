@@ -1,0 +1,25 @@
+.presentation .container {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentation h3 {
+    display: inline;
+    width: 450px;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+.presentation h3 strong {
+    font-weight: 600;
+    color: #0085FF;
+}
+
+.presentation img {
+    width: 400px;
+    height: 400px;
+    border-radius: 100px;
+}

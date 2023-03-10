@@ -1,0 +1,16 @@
+.contact .left h2 {
+    text-align: right;
+    color: #0085FF;
+}
+
+.contact .right span {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+
+.contact .right .networking {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}

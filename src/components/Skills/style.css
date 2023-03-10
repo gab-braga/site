@@ -1,0 +1,23 @@
+.skills .right h2 {
+    text-align: right;
+    color: #0085FF;
+}
+
+.skills .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.skills .grid img {
+    filter: grayscale(100%);
+    opacity: 0.7;
+
+    transition: all;
+    transition-duration: 0.2s;
+}
+
+.skills .grid img:hover {
+    filter: none;
+    opacity: 1;
+}

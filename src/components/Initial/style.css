@@ -1,0 +1,25 @@
+.initial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial h1 {
+    width: 300px;
+    font-size: 9rem;
+    text-align: center;
+    line-height: 9rem;
+}
+
+.initial h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.initial hr {
+    width: 400px;
+    margin: 15px 0;
+    height: 2px;
+    background-color: #FFFFFF;
+}
