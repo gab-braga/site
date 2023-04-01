@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from './screens/Home';
 import Portfolio from './screens/Portfolio';
 import Root from './screens/Root';
@@ -7,7 +7,7 @@ import Blog from './screens/Blog';
 
 function App() {
   return (
-      <BrowserRouter>
+    <HashRouter>
         <Routes>
           <Route path="/" element={<Root />}>
             <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ function App() {
             <Route path="/portfolio" element={<Portfolio />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
   );
 }
 
