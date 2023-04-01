@@ -1,4 +1,4 @@
-import Project from "../Project";
+import Project from "./Project";
 import { projects } from "../../data/projects.js";
 import "./style.css";
 
@@ -9,7 +9,7 @@ export default function Projects() {
                 <h2 className="title">Projetos</h2>
                 <div className="grid">
                     {projects.map(project => {
-                        return <Project image={project.image} title={project.title} link={project.link} />
+                        return <Project key={project.title} image={project.image} title={project.title} link={project.link} />
                     })}
                 </div>
             </div>

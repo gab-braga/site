@@ -3,6 +3,7 @@
     padding: 30px;
     position: fixed;
     z-index: 999;
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .header .menu {
@@ -27,6 +28,11 @@
 }
 
 .header .menu .item:hover {
+    border-bottom: 2px solid #0085FF;
+    color: #0085FF;
+}
+
+.header .menu .active {
     border-bottom: 2px solid #0085FF;
     color: #0085FF;
 }

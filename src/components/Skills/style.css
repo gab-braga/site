@@ -12,7 +12,7 @@
 .skills .grid img {
     width: 150px;
     width: 150px;
-    filter: grayscale(100%);
+    filter: contrast(0);
     opacity: 0.7;
 
     transition: all;
