@@ -12,7 +12,7 @@ export const articles = [
         },
         paragraphs: [
             (<p key={1}>
-                React é uma das bibliotecas de construção de interfaces web mais famosas atualmente. Ela possui diversos recursos de grande interesse pelo desenvolvedor front-end, dentre eles podemos citar a componentização de elementos gráficos e uso de estados. Além disso, possui uma grande facilidade, pois utiliza como mecanismo o JSX que possibilita a utilização de uma sintaxe muito semelhante ao HTML tradicional. Pensando nisso, decide utilizá-lo para a construção do meu site pessoal.
+                React é uma das bibliotecas de construção de interfaces web mais famosas atualmente. Ela possui diversos recursos de grande interesse pelo desenvolvedor front-end, dentre eles podemos citar a componentização de elementos gráficos e uso de estados. Além disso, possui uma grande facilidade, pois utiliza como mecanismo o JSX que possibilita a utilização de uma sintaxe muito semelhante ao HTML tradicional. Pensando nisso, decidi utilizá-lo para a construção do meu site pessoal.
             </p>),
             (<p key={2}>
                 Se utilizando da minha criatividade modelei um protótipo visual do meu site pessoal no figma, aqui foi um momento de planejamento de decisões importantes, onde pude escolher cores, fonte, formas, etc. Veja como ficou <a href="https://www.figma.com/file/Bqv4X28Vpmri4phFlhtgvM/Gabriel-Braga?node-id=0%3A1&t=MDHh5uLRLA03gOOt-1" target="_blank">aqui</a>. Desfrutando dos poderosos recursos oferecidos pelo React desenvolvi meu site. Aqui tive alguns dias de trabalho onde fui descobrindo e trilhando os caminhos de desenvolvimento. Sem muitos processos utilizei code-fix como metodologia.
