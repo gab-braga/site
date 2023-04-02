@@ -1,0 +1,67 @@
+.article .article-body {
+    width: clamp(300px, 80%, 1000px);
+    margin: 0 auto;
+}
+
+.article .article-image img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.article .article-body p {
+    text-align: justify;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    margin: 40px 0;
+    font-weight: 200;
+}
+
+.article .article-body p a {
+    color: #0085FF;
+    font-weight: 300;
+}
+
+.article .article-body p a:active {
+    color: #d11e02;
+}
+
+.article .article-body p a:hover {
+    color: #00529f;
+}
+
+.article .article-video {
+    margin-top: 50px;
+}
+
+.article .article-image span,
+.article .article-video span {
+    margin-bottom: 15px;
+    display: block;
+    color: #0085FF;
+    font-size: 1.7rem;
+    font-weight: 200;
+}
+
+.article .article-video .iframe {
+    width: 100%;
+}
+
+.article .article-info {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.article .article-info .published-in {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #FFFFFF;
+}
+
+.article .article-info .author {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #0085FF;
+}
