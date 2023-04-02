@@ -30,6 +30,7 @@
 }
 
 .article .article-video {
+    width: 100%;
     margin-top: 50px;
 }
 
@@ -42,8 +43,9 @@
     font-weight: 200;
 }
 
-.article .article-video .iframe {
+.article .article-video iframe {
     width: 100%;
+    height: 470px;
 }
 
 .article .article-info {
@@ -64,4 +66,37 @@
     font-size: 2.5rem;
     font-weight: 400;
     color: #0085FF;
+}
+
+@media(max-width: 900px) {
+    .article .article-video iframe {
+        height: 400px;
+    }
+}
+
+@media(max-width: 800px) {
+    .article .article-body {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .article .article-video iframe {
+        height: 380px;
+    }
+}
+
+@media(max-width: 600px) {
+    .article .article-video iframe {
+        height: 260px;
+    }
+
+    .article .article-body p {
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 400px) {
+    .article .article-video iframe {
+        height: 180px;
+    }
 }

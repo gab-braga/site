@@ -2,3 +2,9 @@
     font-size: 4rem;
     margin: 4rem 1rem;
 }
+
+@media(max-width: 600px) {
+    .title-page {
+        font-size: 3rem;
+    }
+}

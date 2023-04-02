@@ -13,7 +13,6 @@ export default function Article() {
 
     useEffect(() => {
         const found = articles.find(a => a.id === id);
-        console.log(found)
         setArticle(found);
         setPublishedIn(new Date(found.publishedIn).toLocaleDateString());
     }, [id]);
