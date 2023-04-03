@@ -8,7 +8,7 @@ export const articles = [
         title: "Desenvolvi meu site pessoal, inteiramente, com React.",
         image: {
             url: siteImage,
-            legend: "Página princiapal do meu site pessoal"
+            legend: "Página principal do meu site pessoal"
         },
         paragraphs: [
             (<p key={1}>
