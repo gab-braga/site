@@ -24,6 +24,6 @@ export const articles = [
                 Confira como ficou o resultado <a href="https://f-gabriel-braga.github.io/site/" target="_blank">aqui</a>.
             </p>)
         ],
-        video: (<iframe src="https://www.youtube.com/embed/BVaZXXysSKI" title="Meu site pessoal desenvolvido com React" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
+        video: (<iframe src="https://www.youtube.com/embed/vVDwFDtNUtY" title="Apresentação do meu site pessoal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>)
     }
 ];
