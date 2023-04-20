@@ -6,7 +6,7 @@ import "./style.css";
 export default function Portfolio() {
     return (
         <div className="container portfolio">
-            <Title>Portfolio</Title>
+            <Title>Portfólio</Title>
             <div className="portfolio-projects">
                 {projects.map(project => {
                     return <Project key={project.title} {...project} />

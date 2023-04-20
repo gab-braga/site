@@ -1,9 +1,7 @@
 .header {
     width: 100%;
     padding: 30px;
-    position: fixed;
-    z-index: 999;
-    background: rgba(255, 255, 255, 0.05);
+    background-color: #ffffff1a;
 }
 
 .header .menu {

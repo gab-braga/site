@@ -15,6 +15,18 @@
     font-weight: 200;
 }
 
+.article .article-body figure {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article .article-body figure img {
+    width: 80%;
+}
+
 .article .article-body p a {
     color: #0085FF;
     font-weight: 300;
@@ -38,6 +50,7 @@
     height: 566px;
 }
 
+.article .article-body figure figcaption,
 .article .article-image span,
 .article .article-video span {
     margin-bottom: 15px;
