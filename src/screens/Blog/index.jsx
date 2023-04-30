@@ -8,7 +8,7 @@ export default function Blog() {
     return (
         <div className="blog container">
             <Helmet>
-                <title>Blog | GB</title>
+                <title>Blog</title>
             </Helmet>
             <Title>Blog</Title>
             <div className="articles">

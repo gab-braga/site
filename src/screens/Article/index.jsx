@@ -3,6 +3,7 @@ import Title from "../../components/Title";
 import { articles } from "../../data/articles";
 import "./style.css";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 
 export default function Article() {
 
@@ -19,6 +20,10 @@ export default function Article() {
 
     return (
         <div className="article container">
+            <Helmet>
+                <title>{article?.title}</title>
+            </Helmet>
+
             {article === null ?
                 <h1>Loading...</h1> :
                 <>

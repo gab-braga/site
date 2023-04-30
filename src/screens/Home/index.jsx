@@ -9,10 +9,11 @@ export default function Home() {
     return (
         <>
             <Helmet>
+                <meta property="fb:app_id" content="911989253208059" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Gabriel Braga - Desenvolvedor Fullstack" />
                 <meta property="og:description" content="Descrubra quem sou e conheça meus projetos." />
-                <meta property="og:image" content="https://github.com/F-Gabriel-Braga/site/blob/master/src/assets/images/logo/banner.png" />
+                <meta property="og:image" content="https://f-gabriel-braga.github.io/site/images/banner.png" />
                 <meta property="og:image:width" content="1200" />
                 <meta property="og:image:height" content="630" />
                 <meta property="og:locale" content="pt_BR" />

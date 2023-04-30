@@ -8,7 +8,7 @@ export default function Portfolio() {
     return (
         <div className="container portfolio">
             <Helmet>
-                <title>Portfólio | GB</title>
+                <title>Portfólio</title>
             </Helmet>
             <Title>Portfólio</Title>
             <div className="portfolio-projects">
