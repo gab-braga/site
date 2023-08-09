@@ -5,36 +5,86 @@
     align-items: center;
 }
 
-.initial h1 {
-    width: 300px;
-    font-size: 9rem;
-    text-align: center;
-    line-height: 9rem;
+.initial .intro-container {
+    display: flex;
+    flex-direction: column;
 }
 
-.initial h2 {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 120px;
+.intro-container .full-name {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
-.initial hr {
-    width: 400px;
-    margin: 15px 0;
-    height: 2px;
-    background-color: #FFFFFF;
+.intro-container h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: 130px;
 }
 
-@media(max-width: 800px) {
-    .initial h1 {
-        font-size: 7rem;
+.intro-container .details {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.intro-container .aux {
+    display: flex;
+    gap: 20px;
+}
+
+.intro-container .links {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro-container .links img {
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro-container .full-name {
+        font-size: 14px;
     }
-
-    .initial h2 {
-        font-size: 2rem;
+    .intro-container h1 {
+        font-size: 80px;
+        line-height: 85px;
     }
-
-    .initial hr {
-        width: 320px;
+    .intro-container .details {
+        font-size: 14px;
+    }
+    .intro-container .links {
+        margin: 15px 0;
+    }
+    .intro-container .links img {
+        width: 28px;
+        height: 28px;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .intro-container h1 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .intro-container .aux {
+        flex-direction: column;
+        gap: 0;
+    }
+    .intro-container .links {
+        flex-direction: row;
+        justify-content: right;
+        gap: 10px;
+    }
+}
+
