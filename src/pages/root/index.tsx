@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Background from "../../components/Background";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import Background from "../../components/background";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
 export default function Root() {
   return (

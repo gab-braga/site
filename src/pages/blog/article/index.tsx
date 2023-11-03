@@ -1,8 +1,8 @@
 import { useParams } from "react-router-dom";
-import Title from "../../components/Title";
-import { articles } from "../../data/articles";
+import { articles } from "../../../data/articles";
 import "./style.css";
 import { useEffect, useState } from "react";
+import Title from "../../../components/Title";
 
 export default function Article() {
   const { id } = useParams();
@@ -11,7 +11,7 @@ export default function Article() {
   const [publishedIn, setPublishedIn] = useState("00/00/00 00:00");
 
   useEffect(() => {
-    const found = articles.find((a) => a.id === id);
+    const found: any = articles.find((a) => a.id === id);
     setArticle(found);
     setPublishedIn(new Date(found.publishedIn).toLocaleDateString());
   }, [id]);
