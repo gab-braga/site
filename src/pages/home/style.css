@@ -41,3 +41,39 @@
 .intro-text {
   font-weight: normal;
 }
+
+@media (max-width: 768px) {
+  .intro-container {
+    width: 22.7rem;
+  }
+
+  .intro-title {
+    font-size: 4rem;
+  }
+
+  .intro-title span {
+    letter-spacing: 0.09rem;
+  }
+
+  .intro-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-container {
+    width: 17rem;
+  }
+
+  .intro-title {
+    font-size: 3rem;
+  }
+
+  .intro-title span {
+    letter-spacing: 0.07rem;
+  }
+
+  .intro-text {
+    font-size: 0.6rem;
+  }
+}
