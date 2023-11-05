@@ -1,14 +1,16 @@
+import "./style.css";
 import { Outlet } from "react-router-dom";
-import Background from "../../components/background";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 
 export default function Root() {
   return (
-    <Background>
+    <div className="root">
       <Header />
-      <Outlet />
+      <main className="main">
+        <Outlet />
+      </main>
       <Footer />
-    </Background>
+    </div>
   );
 }

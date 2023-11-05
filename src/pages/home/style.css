@@ -1,0 +1,43 @@
+.intro {
+  width: 100%;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container {
+  width: 29rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.intro-title {
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.intro-title span {
+  display: block;
+  letter-spacing: 0.175rem;
+}
+
+.intro-list-link {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 12px;
+}
+
+.intro-list-link img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.intro-text {
+  font-weight: normal;
+}
