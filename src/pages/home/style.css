@@ -129,3 +129,87 @@
 .up {
   margin-top: -80px;
 }
+
+.skill {
+  width: 100%;
+  padding: 48px;
+  background-color: #121126;
+  border-radius: 10px;
+  margin-top: 120px;
+  position: relative;
+}
+
+.skill h2 {
+  position: absolute;
+  top: -24px;
+  left: 80px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  background-color: #1e1d39;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  gap: 32px 64px;
+}
+
+.skill-item {
+  flex-grow: 1;
+  flex-basis: calc(calc(100% - 128px) / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.skill-item h3 {
+  width: 120px;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.skill-item img {
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 768px) {
+  .skill h2 {
+    left: calc(50% - 86px);
+  }
+
+  .skill-item {
+    flex-basis: calc(calc(100% - 128px) / 2);
+    gap: 16px;
+  }
+
+  .skill-item img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill h2 {
+    font-size: 1.1rem;
+    left: calc(50% - 79px);
+  }
+
+  .skill-item {
+    flex-basis: 100%;
+    justify-content: start;
+  }
+
+  .skill-item h3 {
+    font-size: 1rem;
+  }
+}

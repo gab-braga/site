@@ -1,5 +1,5 @@
 import "./style.css";
-import gitHubIcon from "../../assets/icons/skills/ICON-GITHUB.svg";
+import gitHubIcon from "../../assets/icons/skills/github.svg";
 import viewIcon from "../../assets/icons/networking/ICON-VIEW.svg";
 
 export default function Project({

@@ -8,6 +8,19 @@ import toolbox from "../../assets/icons/toolbox.svg";
 import graduation from "../../assets/icons/graduation-cap.svg";
 import wrench from "../../assets/icons/wrench.svg";
 
+import angular from "../../assets/icons/skills/flag-ang.svg";
+import bootstrap from "../../assets/icons/skills/flag-boots.svg";
+import css from "../../assets/icons/skills/flag-css.svg";
+import firebase from "../../assets/icons/skills/flag-fire.svg";
+import java from "../../assets/icons/skills/flag-java.svg";
+import javascript from "../../assets/icons/skills/flag-js.svg";
+import typescript from "../../assets/icons/skills/flag-ts.svg";
+import node from "../../assets/icons/skills/flag-node.svg";
+import spring from "../../assets/icons/skills/flag-spring.svg";
+import react from "../../assets/icons/skills/flag-react.svg";
+import mysql from "../../assets/icons/skills/flag-mysql.svg";
+import tailwind from "../../assets/icons/skills/flag-tailw.svg";
+
 export default function Home() {
   return (
     <>
@@ -76,6 +89,62 @@ export default function Home() {
               Possuo vasto conhecimentos para atuar no mercado de trabalho em
               tecnologia.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="container">
+        <div className="skill">
+          <h2>Habilidades</h2>
+          <div className="skill-list">
+            <div className="skill-item">
+              <img src={spring} alt="Spring Boot" />
+              <h3>Spring Boot</h3>
+            </div>
+            <div className="skill-item">
+              <img src={angular} alt="Angular" />
+              <h3>Angular</h3>
+            </div>
+            <div className="skill-item">
+              <img src={node} alt="Node.js" />
+              <h3>Node.js</h3>
+            </div>
+            <div className="skill-item">
+              <img src={react} alt="React.js" />
+              <h3>React.js</h3>
+            </div>
+            <div className="skill-item">
+              <img src={tailwind} alt="Tailwind CSS" />
+              <h3>Tailwind CSS</h3>
+            </div>
+            <div className="skill-item">
+              <img src={bootstrap} alt="Bootstrap" />
+              <h3>Bootstrap</h3>
+            </div>
+            <div className="skill-item">
+              <img src={firebase} alt="Firebase" />
+              <h3>Firebase</h3>
+            </div>
+            <div className="skill-item">
+              <img src={javascript} alt="JavaScript" />
+              <h3>JavaScript</h3>
+            </div>
+            <div className="skill-item">
+              <img src={typescript} alt="TypeScript" />
+              <h3>TypeScript</h3>
+            </div>
+            <div className="skill-item">
+              <img src={java} alt="Java" />
+              <h3>Java</h3>
+            </div>
+            <div className="skill-item">
+              <img src={mysql} alt="MySQL" />
+              <h3>MySQL</h3>
+            </div>
+            <div className="skill-item">
+              <img src={css} alt="CSS" />
+              <h3>CSS</h3>
+            </div>
           </div>
         </div>
       </section>
