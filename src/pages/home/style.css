@@ -34,8 +34,8 @@
 }
 
 .intro-list-link img {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .intro-text {
@@ -75,6 +75,11 @@
 
   .intro-text {
     font-size: 0.6rem;
+  }
+
+  .intro-list-link img {
+    width: 1.5rem;
+    height: 1.5rem;
   }
 }
 
@@ -127,7 +132,7 @@
 }
 
 .up {
-  margin-top: -80px;
+  margin-top: -70px;
 }
 
 .skill {
@@ -211,5 +216,45 @@
 
   .skill-item h3 {
     font-size: 1rem;
+  }
+}
+
+.portfolio {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 32px;
+  background-color: #121126;
+  padding: 48px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.portfolio h2 {
+  position: absolute;
+  top: -24px;
+  left: 80px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  background-color: #1e1d39;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .portfolio h2 {
+    left: calc(50% - 73.7px);
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio h2 {
+    font-size: 1.1rem;
+    left: calc(50% - 67.7px);
   }
 }

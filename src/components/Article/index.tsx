@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./style.css";
 
-export default function Card({ id, title, image }: any) {
+export default function Article({ id, title, image }: any) {
   return (
     <Link to={`/blog/article/${id}`} className="card">
       <img src={image} alt={title} />

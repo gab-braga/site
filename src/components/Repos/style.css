@@ -1,0 +1,58 @@
+.card {
+  flex-basis: 230px;
+  flex-grow: 1;
+  max-width: 300px;
+  border-radius: 10px;
+  padding: 24px;
+  background-color: #1e1d39;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.card-year {
+  display: block;
+  color: #0085ff;
+}
+
+.card-star {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-star,
+.card-lang {
+  color: #adadad;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card h3 {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.card-option {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.card-option a {
+  text-decoration: none;
+  background-color: #0d0c1d;
+  padding: 6px 12px;
+  border-radius: 8px;
+}

@@ -20,8 +20,39 @@ import spring from "../../assets/icons/skills/flag-spring.svg";
 import react from "../../assets/icons/skills/flag-react.svg";
 import mysql from "../../assets/icons/skills/flag-mysql.svg";
 import tailwind from "../../assets/icons/skills/flag-tailw.svg";
+import Repos from "../../components/Repos";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 export default function Home() {
+  const [repos, setRepos] = useState<any>([]);
+  const REPO_IDS: number[] = [
+    704309328, // exoplanets-api
+    686434371, // go-service
+    695648694, // ideal-chair
+    713027230, // marketplace-app
+    349505303, // music-player
+    638086293, // pacman
+    713903863, // pokedex-app
+    384292378, // ponto-de-venda
+  ];
+
+  async function fetchRepos() {
+    const dataPromise = REPO_IDS.map(async (id) => {
+      const { data } = await axios.get(
+        `https://api.github.com/repositories/${id}`
+      );
+      return data;
+    });
+    return await Promise.all(dataPromise);
+  }
+
+  useEffect(() => {
+    fetchRepos().then((results) => {
+      setRepos(results);
+    });
+  }, []);
+
   return (
     <>
       <section className="container">
@@ -78,18 +109,27 @@ export default function Home() {
             <img src={graduation} alt="Computer Student" />
             <h3>Computer Student</h3>
             <p>
-              Com conhecimentos sólidos em tecnologia sou estudante em Ciência
-              da Computação pelo Instituto Federal.
+              Com conhecimentos aprimorados em tecnologia sou estudante em
+              Ciência da Computação pelo Instituto Federal.
             </p>
           </div>
           <div className="detail-card">
-            <img src={wrench} alt="Especialist Informatec" />
-            <h3>Especialist Informatec</h3>
+            <img src={wrench} alt="Computer Technician" />
+            <h3>Computer Technician</h3>
             <p>
               Possuo vasto conhecimentos para atuar no mercado de trabalho em
               tecnologia.
             </p>
           </div>
+        </div>
+      </section>
+
+      <section className="container">
+        <div className="portfolio">
+          <h2>Projetos</h2>
+          {repos.map((repo: any) => (
+            <Repos key={repo?.id} {...repo} />
+          ))}
         </div>
       </section>
 
