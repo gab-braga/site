@@ -124,12 +124,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="container">
-        <div className="portfolio">
-          <h2>Projetos</h2>
-          {repos.map((repo: any) => (
-            <Repos key={repo?.id} {...repo} />
-          ))}
+      <section className="portfolio">
+        <h2>Websites and Applications</h2>
+        <div className="container">
+          <div className="portfolio-repositories">
+            {repos.map((repo: any) => (
+              <Repos key={repo?.id} {...repo} />
+            ))}
+          </div>
         </div>
       </section>
 
