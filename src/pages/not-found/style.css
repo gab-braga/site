@@ -1,0 +1,32 @@
+.not-found {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.not-found h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.not-found h1 span {
+  color: #0085ff;
+}
+
+.not-found .back {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  background-color: #121126;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .not-found h1 {
+    font-size: 3rem;
+  }
+}
