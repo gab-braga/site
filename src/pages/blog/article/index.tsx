@@ -2,19 +2,20 @@ import { useParams } from "react-router-dom";
 import { articles } from "../../../data/articles";
 import "./style.css";
 import { useEffect, useState } from "react";
-import Title from "../../../components/Title";
 
 export default function Article() {
   const { id } = useParams();
 
-  const [article, setArticle] = useState(null);
-  const [publishedIn, setPublishedIn] = useState("00/00/00 00:00");
+  const [article, setArticle] = useState<any>(null);
 
   useEffect(() => {
     const found: any = articles.find((a) => a.id === id);
     setArticle(found);
-    setPublishedIn(new Date(found.publishedIn).toLocaleDateString());
   }, [id]);
+
+  function formatDate(ms: number) {
+    return new Date(ms).toLocaleDateString();
+  }
 
   return (
     <div className="article container">
@@ -22,26 +23,30 @@ export default function Article() {
         <h1>Loading...</h1>
       ) : (
         <>
-          <Title>{article?.title}</Title>
+          <h1>{article?.title}</h1>
           <div className="article-body">
-            {article.image && (
+            {article?.image && (
               <div className="article-image">
                 <span>{article.image?.legend}</span>
                 <img src={article.image?.url} alt={article?.title} />
               </div>
             )}
-            {article?.paragraphs.map((paragraph) => {
-              return paragraph;
-            })}
+            <div className="article-content">
+              {article?.paragraphs.map((paragraph: string) => {
+                return paragraph;
+              })}
+            </div>
             {article.video && (
               <div className="article-video">
                 <span>Confira o video:</span>
-                {article?.video}
+                <div className="article-video-container">{article?.video}</div>
               </div>
             )}
             <div className="article-info">
-              <span className="author">{article?.author}</span>
-              <span className="published-in">{publishedIn}</span>
+              <span className="article-author">{article?.author}</span>
+              <span className="article-date">
+                {formatDate(article?.publishedIn)}
+              </span>
             </div>
           </div>
         </>
