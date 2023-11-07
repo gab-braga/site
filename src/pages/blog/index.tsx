@@ -1,23 +1,17 @@
-import Card from "../../components/Article";
-import Title from "../../components/Title";
+import Post from "../../components/post";
 import { articles } from "../../data/articles";
 import "./style.css";
 
 export default function Blog() {
   return (
-    <div className="blog container">
-      <Title>Blog</Title>
-      <div className="articles">
-        {articles.map((article) => {
-          return (
-            <Card
-              key={article.id}
-              id={article.id}
-              title={article.title}
-              image={article.image.url}
-            />
-          );
-        })}
+    <div className="container">
+      <div className="blog">
+        <h1>Blog</h1>
+        <div className="blog-posts">
+          {articles.map((article) => {
+            return <Post key={article.id} {...article} />;
+          })}
+        </div>
       </div>
     </div>
   );

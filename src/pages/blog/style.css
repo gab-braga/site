@@ -1,25 +1,29 @@
-.blog .articles {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+.blog {
+  width: 100%;
 }
 
-@media(max-width: 1000px) {
-    .blog .articles {
-        grid-template-columns: repeat(2, 1fr);
-    }
+.blog h1 {
+  font-size: 2rem;
+  margin: 32px 0;
 }
 
-@media(max-width: 650px) {
-    .blog .articles {
-        grid-template-columns: repeat(1, 1fr);
-    }
+.blog-posts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: stretch;
+  gap: 32px;
 }
 
-@media(max-width: 400px) {
+@media (max-width: 768px) {
+  .blog-posts {
+    padding: 0 64px;
+  }
+}
 
-    .card .card-description h2 {
-        font-size: 2rem;
-    }
+@media (max-width: 480px) {
+  .blog-posts {
+    padding: initial;
+  }
 }
