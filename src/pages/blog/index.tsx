@@ -4,7 +4,7 @@ import "./style.css";
 
 export default function Blog() {
   return (
-    <div className="container">
+    <section className="container">
       <div className="blog">
         <h1>Blog</h1>
         <div className="blog-posts">
@@ -13,6 +13,6 @@ export default function Blog() {
           })}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
