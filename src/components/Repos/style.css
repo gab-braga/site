@@ -1,4 +1,4 @@
-.card {
+.repo {
   flex-basis: 230px;
   flex-grow: 1;
   max-width: 300px;
@@ -10,38 +10,38 @@
   gap: 6px;
 }
 
-.card-top {
+.repo-top {
   display: flex;
   justify-content: space-between;
   align-items: start;
 }
 
-.card-year {
+.repo-year {
   display: block;
   color: #0085ff;
 }
 
-.card-star {
+.repo-star {
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
-.card-star,
-.card-lang {
+.repo-star,
+.repo-lang {
   color: #adadad;
 }
 
-.card a {
+.repo a {
   text-decoration: none;
 }
 
-.card h3 {
+.repo h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
 
-.card-option {
+.repo-option {
   width: 100%;
   display: flex;
   justify-content: end;
@@ -50,7 +50,7 @@
   margin-top: 12px;
 }
 
-.card-option a {
+.repo-option a {
   text-decoration: none;
   background-color: #0d0c1d;
   padding: 6px 12px;

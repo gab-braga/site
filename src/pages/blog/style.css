@@ -3,8 +3,11 @@
 }
 
 .blog h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin: 32px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1e1d39;
 }
 
 .blog-posts {
@@ -25,5 +28,9 @@
 @media (max-width: 480px) {
   .blog-posts {
     padding: initial;
+  }
+
+  .blog h1 {
+    text-align: center;
   }
 }

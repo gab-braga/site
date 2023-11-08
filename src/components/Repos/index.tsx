@@ -19,10 +19,10 @@ export default function Repos({
   }
 
   return (
-    <div className="card">
-      <div className="card-top">
-        <span className="card-year">{formatYear(created_at)}</span>
-        <span className="card-star">
+    <div className="repo">
+      <div className="repo-top">
+        <span className="repo-year">{formatYear(created_at)}</span>
+        <span className="repo-star">
           {stargazers_count}
           <img src={star} alt="ícone strela" width="20" height="20" />
         </span>
@@ -30,8 +30,8 @@ export default function Repos({
       <a href={html_url} target="_blank">
         <h3>{formatName(name)}</h3>
       </a>
-      <p className="card-lang">{language}</p>
-      <div className="card-option">
+      <p className="repo-lang">{language}</p>
+      <div className="repo-option">
         <a href={html_url} target="_blank">
           Source
         </a>

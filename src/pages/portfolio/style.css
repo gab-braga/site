@@ -1,11 +1,25 @@
-.portfolio-projects {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 30px;
+.projects {
+  width: 100%;
 }
 
-.portfolio-projects a {
-    text-decoration: none;
+.projects h1 {
+  font-size: 1.6rem;
+  margin: 32px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1e1d39;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+@media (max-width: 480px) {
+  .projects h1 {
+    text-align: center;
+  }
 }
