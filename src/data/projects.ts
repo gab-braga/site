@@ -1,17 +1,3 @@
-import angular from "../assets/icons/skills/flag-ang.svg";
-import bootstrap from "../assets/icons/skills/flag-boots.svg";
-import firebase from "../assets/icons/skills/flag-fire.svg";
-import html from "../assets/icons/skills/flag-css.svg";
-import css from "../assets/icons/skills/flag-css.svg";
-import js from "../assets/icons/skills/flag-js.svg";
-import java from "../assets/icons/skills/flag-java.svg";
-import mysql from "../assets/icons/skills/flag-mysql.svg";
-import node from "../assets/icons/skills/flag-node.svg";
-import react from "../assets/icons/skills/flag-react.svg";
-import spring from "../assets/icons/skills/flag-spring.svg";
-import ts from "../assets/icons/skills/flag-ts.svg";
-import tailwind from "../assets/icons/skills/flag-tailw.svg";
-
 import image01 from "../assets/images/projects/projeto-01.png";
 import image02 from "../assets/images/projects/projeto-02.png";
 import image03 from "../assets/images/projects/projeto-03.png";
@@ -24,8 +10,8 @@ import image09 from "../assets/images/projects/projeto-09.png";
 import image10 from "../assets/images/projects/projeto-10.png";
 import image11 from "../assets/images/projects/projeto-11.png";
 import image12 from "../assets/images/projects/projeto-12.png";
-import image13 from "../assets/images/projects/projeto-13.png";
-import image14 from "../assets/images/projects/projeto-14.png";
+// import image13 from "../assets/images/projects/projeto-13.png";
+// import image14 from "../assets/images/projects/projeto-14.png";
 
 export const projects: any = [
   {
