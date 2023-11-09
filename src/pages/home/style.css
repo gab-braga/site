@@ -36,6 +36,11 @@
 .intro-list-link img {
   width: 2rem;
   height: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.intro-list-link img:hover {
+  transform: scale(1.05);
 }
 
 .intro-text {
