@@ -1,6 +1,6 @@
-import siteImage from "../assets/images/articles/site-pessoal.png";
-import colacaoImageI from "../assets/images/articles/colacao-1.jpg";
-import colacaoImageII from "../assets/images/articles/colacao-2.jpg";
+import post1Img1 from "../assets/images/posts/1/1.jpg";
+import post2Img1 from "../assets/images/posts/2/1.jpg";
+import post2Img2 from "../assets/images/posts/2/2.jpg";
 
 export const articles = [
   {
@@ -9,7 +9,7 @@ export const articles = [
     publishedIn: 1680457501230,
     title: "Desenvolvi meu site pessoal, inteiramente, com React.",
     image: {
-      url: siteImage,
+      url: post1Img1,
       legend: "Página principal do meu site pessoal",
     },
     paragraphs: [
@@ -69,7 +69,7 @@ export const articles = [
     publishedIn: 1682866480067,
     title: "Quem é Gabriel Braga em 2023?",
     image: {
-      url: colacaoImageI,
+      url: post2Img1,
       legend:
         "Colação curso técnico em informática com os professores Willian e Henrique.",
     },
@@ -109,10 +109,7 @@ export const articles = [
         exercício de professor.
         <figure key={4}>
           <figcaption>Colação do curso técnico em informática</figcaption>
-          <img
-            src={colacaoImageII}
-            alt="Colação do curso técnico em informática"
-          />
+          <img src={post2Img2} alt="Colação do curso técnico em informática" />
         </figure>
       </p>,
       <p key={4}>

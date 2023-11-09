@@ -1,5 +1,5 @@
 import Post from "../../components/post";
-import { articles } from "../../data/articles";
+import { articles } from "../../data/posts";
 import "./style.css";
 
 export default function Blog() {

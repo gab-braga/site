@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { articles } from "../../../data/articles";
+import { articles } from "../../../data/posts";
 import "./style.css";
 import { useEffect, useState } from "react";
 

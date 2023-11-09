@@ -7,6 +7,12 @@
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
 }
 
 .card-cover {
@@ -55,7 +61,7 @@
 }
 
 .card-year {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   font-weight: 400;
   color: #0085ff;
 }
