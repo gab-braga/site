@@ -31,3 +31,53 @@
     font-size: 3rem;
   }
 }
+
+#not-found-message {
+  animation: cursor-hightlight 0.5s infinite;
+}
+
+@keyframes cursor-hightlight {
+  to {
+    border-right: 2px solid white;
+  }
+  from {
+    border-right: 2px solid transparent;
+  }
+}
+
+#not-found-message::before {
+  content: "";
+  animation: text-not-found 7s infinite;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+
+@keyframes text-not-found {
+  10% {
+    content: "";
+  }
+  20% {
+    content: "N";
+  }
+  30% {
+    content: "No";
+  }
+  40% {
+    content: "Not";
+  }
+  50% {
+    content: "Not F";
+  }
+  60% {
+    content: "Not Fo";
+  }
+  70% {
+    content: "Not Fou";
+  }
+  80% {
+    content: "Not Foun";
+  }
+  100% {
+    content: "Not Found";
+  }
+}
