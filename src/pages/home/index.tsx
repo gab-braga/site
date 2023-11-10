@@ -28,11 +28,11 @@ export default function Home() {
   const [repos, setRepos] = useState<any>([]);
   const REPO_IDS: number[] = [
     704309328, // exoplanets-api
-    686434371, // go-service
+    673901950, // weather-app
     695648694, // ideal-chair
-    713027230, // marketplace-app
     349505303, // music-player
-    638086293, // pacman
+    716273614, // marketplace-api
+    652880343, // terragro
     713903863, // pokedex-app
     384292378, // ponto-de-venda
   ];

@@ -20,7 +20,7 @@ export const projects: any = [
   {
     image: image01,
     name: "Maketplace App",
-    urlRepo: "https://github.com/F-Gabriel-Braga/maketplace-app",
+    urlRepo: "https://github.com/F-Gabriel-Braga/marketplace-app",
     stacks: ["React", "Tailwind CSS"],
     year: 2023,
   },
@@ -92,7 +92,7 @@ export const projects: any = [
     name: "Fast Food",
     urlRepo: "https://github.com/F-Gabriel-Braga/fast-food",
     stacks: ["Thymeleaf", "Spring", "Java"],
-    year: 2020,
+    year: 2021,
   },
   {
     image: image12,
