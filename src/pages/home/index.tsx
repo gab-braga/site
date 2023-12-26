@@ -27,13 +27,13 @@ import axios from "axios";
 export default function Home() {
   const [repos, setRepos] = useState<any>([]);
   const REPO_IDS: number[] = [
-    704309328, // exoplanets-api
+    713903863, // pokedex-app
     673901950, // weather-app
     695648694, // ideal-chair
+    652880343, // terragro
     349505303, // music-player
     716273614, // marketplace-api
-    652880343, // terragro
-    713903863, // pokedex-app
+    704309328, // exoplanets-api
     384292378, // ponto-de-venda
   ];
 
@@ -69,7 +69,7 @@ export default function Home() {
                 <img src={github} alt="GitHub" />
               </a>
               <a
-                href="https://drive.google.com/file/d/1nmtkyp4kDegTCLq_O8JIaFN98MqZdHmj/view?usp=sharing"
+                href="https://drive.google.com/file/d/1KMRQ7DpRsGctil-6yD8i0_t-Io2afQWb/view?usp=sharing"
                 target="_blank"
               >
                 <img src={curriculum} alt="Currículo" />
