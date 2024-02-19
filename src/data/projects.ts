@@ -11,12 +11,20 @@ import image10 from "../assets/images/projects/img10.jpg";
 import image11 from "../assets/images/projects/img11.jpg";
 import image12 from "../assets/images/projects/img12.jpg";
 import image13 from "../assets/images/projects/img13.jpg";
-// import image14 from "../assets/images/projects/img14.jpg";
+import image14 from "../assets/images/projects/img14.jpg";
 import image15 from "../assets/images/projects/img15.jpg";
 import image16 from "../assets/images/projects/img16.jpg";
 import image17 from "../assets/images/projects/img17.jpg";
+import image18 from "../assets/images/projects/img18.jpg";
 
 export const projects: any = [
+  {
+    image: image18,
+    name: "Cine Dev",
+    urlRepo: "https://github.com/F-Gabriel-Braga/cine-dev",
+    stacks: ["Angular", "Spring", "JWT"],
+    year: 2024,
+  },
   {
     image: image01,
     name: "Maketplace App",
@@ -60,10 +68,45 @@ export const projects: any = [
     year: 2023,
   },
   {
+    image: image10,
+    name: "Plane Geometric 2D",
+    urlRepo: "https://github.com/F-Gabriel-Braga/plane-geometric-2d",
+    stacks: ["JS", "CSS"],
+    year: 2023,
+  },
+  {
+    image: image14,
+    name: "eSports",
+    urlRepo: "https://github.com/F-Gabriel-Braga/esports-nlw",
+    stacks: ["React Native", "TS"],
+    year: 2023,
+  },
+  {
+    image: image16,
+    name: "Pac-Man",
+    urlRepo: "https://github.com/F-Gabriel-Braga/pacman",
+    stacks: ["C", "C++"],
+    year: 2023,
+  },
+  {
+    image: image12,
+    name: "Go Service",
+    urlRepo: "https://github.com/F-Gabriel-Braga/go-service",
+    stacks: ["Spring", "JWT", "Java"],
+    year: 2023,
+  },
+  {
     image: image07,
     name: "Galaxy App",
     urlRepo: "https://github.com/F-Gabriel-Braga/galaxy-app",
     stacks: ["Angular", "TS"],
+    year: 2022,
+  },
+  {
+    image: image13,
+    name: "Collaboratores App",
+    urlRepo: "https://github.com/F-Gabriel-Braga/collaborators-app",
+    stacks: ["Angular", "Firebase", "TS"],
     year: 2022,
   },
   {
@@ -81,13 +124,6 @@ export const projects: any = [
     year: 2021,
   },
   {
-    image: image10,
-    name: "Plane Geometric 2D",
-    urlRepo: "https://github.com/F-Gabriel-Braga/plane-geometric-2d",
-    stacks: ["JS", "CSS"],
-    year: 2023,
-  },
-  {
     image: image11,
     name: "Fast Food",
     urlRepo: "https://github.com/F-Gabriel-Braga/fast-food",
@@ -95,39 +131,11 @@ export const projects: any = [
     year: 2021,
   },
   {
-    image: image12,
-    name: "Go Service",
-    urlRepo: "https://github.com/F-Gabriel-Braga/go-service",
-    stacks: ["Spring", "JWT", "Java"],
-    year: 2020,
-  },
-  {
-    image: image13,
-    name: "Collaboratores App",
-    urlRepo: "https://github.com/F-Gabriel-Braga/collaborators-app",
-    stacks: ["Angular", "Firebase", "TS"],
-    year: 2022,
-  },
-  // {
-  //   image: image14,
-  //   name: "Weather App",
-  //   urlRepo: "https://github.com/F-Gabriel-Braga/ponto-de-venda",
-  //   stacks: ["Angular", "TS"],
-  //   year: 2020,
-  // },
-  {
     image: image15,
     name: "Happy | NLW",
     urlRepo: "https://github.com/f-gabriel-braga/happy-nlw",
     stacks: ["Node.js", "Handlebars"],
     year: 2021,
-  },
-  {
-    image: image16,
-    name: "Pac-Man",
-    urlRepo: "https://github.com/F-Gabriel-Braga/pacman",
-    stacks: ["C", "C++"],
-    year: 2023,
   },
   {
     image: image17,

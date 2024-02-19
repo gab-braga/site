@@ -39,8 +39,8 @@ export default function Footer() {
           </ul>
         </div>
         <p className="footer-copy">
-          Copyright &copy; 2023 <strong>Gabriel Braga</strong>. Todos os
-          direitos reservados.
+          Copyright &copy; 2023 <strong>Gabriel Braga</strong>. Alguns direitos
+          reservados.
         </p>
       </div>
     </footer>

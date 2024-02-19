@@ -4,7 +4,7 @@
   max-width: 300px;
   flex-basis: 240px;
   flex-grow: 1;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   overflow: hidden;
   position: relative;
 

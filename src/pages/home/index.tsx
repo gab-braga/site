@@ -27,13 +27,13 @@ import axios from "axios";
 export default function Home() {
   const [repos, setRepos] = useState<any>([]);
   const REPO_IDS: number[] = [
+    738760520, // cine-dev-api
+    716273614, // marketplace-api
     713903863, // pokedex-app
     673901950, // weather-app
     695648694, // ideal-chair
     652880343, // terragro
     349505303, // music-player
-    716273614, // marketplace-api
-    704309328, // exoplanets-api
     384292378, // ponto-de-venda
   ];
 
@@ -69,7 +69,7 @@ export default function Home() {
                 <img src={github} alt="GitHub" />
               </a>
               <a
-                href="https://drive.google.com/file/d/1KMRQ7DpRsGctil-6yD8i0_t-Io2afQWb/view?usp=sharing"
+                href="https://docs.google.com/document/d/1wIVvc_my-lRjA7r4AHKKMI9uV3fiLyZRZAGaPpxl7oY/edit?usp=sharing"
                 target="_blank"
               >
                 <img src={curriculum} alt="Currículo" />
@@ -80,8 +80,9 @@ export default function Home() {
               <span>Developer</span>
             </h1>
             <p className="intro-text">
-              Olá, meu nome é Gabriel Braga. Sou desenvolvedor e professor
-              especialista em construção de site e aplicações web.
+              Olá, meu nome é <span className="my-name">Gabriel Braga</span>.
+              Sou desenvolvedor e professor especialista em construção de site e
+              aplicações web.
             </p>
           </div>
         </div>

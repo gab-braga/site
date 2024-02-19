@@ -47,6 +47,10 @@
   font-weight: normal;
 }
 
+.intro-text .my-name {
+  color: #0085ff;
+}
+
 @media (max-width: 768px) {
   .intro-container {
     width: 22.7rem;
