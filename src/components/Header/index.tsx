@@ -21,14 +21,6 @@ export default function Header() {
         >
           Portfólio
         </NavLink>
-        <NavLink
-          to="/blog"
-          className={({ isActive }) =>
-            isActive ? "active menu-item" : "menu-item"
-          }
-        >
-          Blog
-        </NavLink>
       </nav>
     </header>
   );

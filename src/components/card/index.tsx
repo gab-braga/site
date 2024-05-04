@@ -7,7 +7,7 @@ export default function Card({ urlRepo, name, image, stacks, year }: any) {
       <div className="card-overlay">
         <div className="card-stacks">
           {stacks.map((stack: any) => (
-            <span className="card-tag">{stack}</span>
+            <span key={stack} className="card-tag">{stack}</span>
           ))}
         </div>
         <div className="card-info">

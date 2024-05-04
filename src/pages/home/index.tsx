@@ -10,7 +10,7 @@ import wrench from "../../assets/icons/wrench.svg";
 
 import angular from "../../assets/icons/skills/flag-ang.svg";
 import bootstrap from "../../assets/icons/skills/flag-boots.svg";
-import css from "../../assets/icons/skills/flag-css.svg";
+import azure from "../../assets/icons/skills/flag-azure.svg";
 import firebase from "../../assets/icons/skills/flag-fire.svg";
 import java from "../../assets/icons/skills/flag-java.svg";
 import javascript from "../../assets/icons/skills/flag-js.svg";
@@ -69,7 +69,7 @@ export default function Home() {
                 <img src={github} alt="GitHub" />
               </a>
               <a
-                href="https://docs.google.com/document/d/1wIVvc_my-lRjA7r4AHKKMI9uV3fiLyZRZAGaPpxl7oY/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1rpcIfGVL2hzyPV_DR7qWhmf1Iy3MCZzjGKgT89pZUYE/edit?usp=sharing"
                 target="_blank"
               >
                 <img src={curriculum} alt="Currículo" />
@@ -185,8 +185,8 @@ export default function Home() {
               <h3>MySQL</h3>
             </div>
             <div className="skill-item">
-              <img src={css} alt="CSS" />
-              <h3>CSS</h3>
+              <img src={azure} alt="Azure" />
+              <h3>Azure</h3>
             </div>
           </div>
         </div>

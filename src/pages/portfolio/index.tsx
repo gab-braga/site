@@ -9,7 +9,7 @@ export default function Portfolio() {
         <h1>Portfólio</h1>
         <div className="projects-list">
           {projects.map((proj: any) => (
-            <Card {...proj} />
+            <Card key={proj.id} {...proj} />
           ))}
         </div>
       </div>

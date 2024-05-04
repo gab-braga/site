@@ -4,10 +4,10 @@
 
 .projects h1 {
   font-size: 1.6rem;
-  margin: 32px 0;
-  text-transform: uppercase;
   font-weight: 500;
-  color: #0085ff;
+  margin: 32px 0;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .projects-list {
