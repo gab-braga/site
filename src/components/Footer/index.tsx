@@ -13,9 +13,6 @@ export default function Footer() {
             <li>
               <Link to="/portfolio">Portfólio</Link>
             </li>
-            <li>
-              <Link to="/blog">Blog</Link>
-            </li>
           </ul>
           <ul>
             <li>
@@ -39,7 +36,7 @@ export default function Footer() {
           </ul>
         </div>
         <p className="footer-copy">
-          Copyright &copy; 2023 <strong>Gabriel Braga</strong>. Alguns direitos
+          Copyright &copy; 2024 <strong>Gabriel Braga</strong>. Alguns direitos
           reservados.
         </p>
       </div>
