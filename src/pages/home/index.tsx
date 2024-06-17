@@ -66,7 +66,7 @@ export default function Home() {
                 <img src={github} alt="GitHub" />
               </a>
               <a
-                href="https://docs.google.com/document/d/1rpcIfGVL2hzyPV_DR7qWhmf1Iy3MCZzjGKgT89pZUYE/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1s0VBlmN9_SvLOWrwLQy9x-nkZqEfmqCE/edit?usp=sharing&ouid=113140165603632485583&rtpof=true&sd=true"
                 target="_blank"
               >
                 <img src={curriculum} alt="Currículo" />
