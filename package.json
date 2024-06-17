@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://f-gabriel-braga.github.io/site",
+  "homepage": "https://gab-braga.github.io/site",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

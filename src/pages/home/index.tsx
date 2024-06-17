@@ -59,13 +59,10 @@ export default function Home() {
         <div className="intro">
           <div className="intro-container up">
             <div className="intro-list-link">
-              <a
-                href="https://www.linkedin.com/in/f-gabriel-braga/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/gab-braga/" target="_blank">
                 <img src={linkedin} alt="LinkedIn" />
               </a>
-              <a href="https://github.com/f-gabriel-braga" target="_blank">
+              <a href="https://github.com/gab-braga" target="_blank">
                 <img src={github} alt="GitHub" />
               </a>
               <a
