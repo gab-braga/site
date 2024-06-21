@@ -20,7 +20,7 @@ import spring from "../../assets/icons/skills/flag-spring.svg";
 import react from "../../assets/icons/skills/flag-react.svg";
 import mysql from "../../assets/icons/skills/flag-mysql.svg";
 import tailwind from "../../assets/icons/skills/flag-tailw.svg";
-import Repos from "../../components/repos";
+import Repos from "../../components/Repos";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
@@ -59,7 +59,7 @@ export default function Home() {
         <div className="intro">
           <div className="intro-container up">
             <div className="intro-list-link">
-              <a href="https://www.linkedin.com/in/gab-braga/" target="_blank">
+              <a href="https://www.linkedin.com/in/f-gabriel-braga/" target="_blank">
                 <img src={linkedin} alt="LinkedIn" />
               </a>
               <a href="https://github.com/gab-braga" target="_blank">
@@ -78,7 +78,7 @@ export default function Home() {
             </h1>
             <p className="intro-text">
               Olá, meu nome é <span className="my-name">Gabriel Braga</span>.
-              Sou desenvolvedor e professor especialista em construção de site e
+              Sou desenvolvedor e professor especialista em construção de sites e
               aplicações web.
             </p>
           </div>
