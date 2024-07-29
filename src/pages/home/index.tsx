@@ -59,7 +59,10 @@ export default function Home() {
         <div className="intro">
           <div className="intro-container up">
             <div className="intro-list-link">
-              <a href="https://www.linkedin.com/in/f-gabriel-braga/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/f-gabriel-braga/"
+                target="_blank"
+              >
                 <img src={linkedin} alt="LinkedIn" />
               </a>
               <a href="https://github.com/gab-braga" target="_blank">
@@ -78,8 +81,8 @@ export default function Home() {
             </h1>
             <p className="intro-text">
               Olá, meu nome é <span className="my-name">Gabriel Braga</span>.
-              Sou desenvolvedor e professor especialista em construção de sites e
-              aplicações web.
+              Sou desenvolvedor e professor especialista em construção de sites
+              e aplicações web.
             </p>
           </div>
         </div>
@@ -118,6 +121,44 @@ export default function Home() {
               Possuo vasto conhecimentos para atuar no mercado de trabalho em
               tecnologia.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="container">
+        <div className="credencials">
+          <h2>Certificações</h2>
+          <div className="credencials-list">
+            <a
+              href="https://learn.microsoft.com/api/credentials/share/pt-br/FrGabrielBraga/9234D97BC58C4695?sharingId=E27704F5D47E3F92"
+              title="Microsoft Certified: Azure Fundamentals"
+              className="credencials-item"
+            >
+              <img
+                src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
+                alt="Microsoft Certified: Azure Fundamentals"
+              />
+            </a>
+            <a
+              href="https://learn.microsoft.com/api/credentials/share/pt-br/FrGabrielBraga/E704822742D98049?sharingId=E27704F5D47E3F92"
+              title="Microsoft Certified: Azure AI Fundamentals"
+              className="credencials-item"
+            >
+              <img
+                src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
+                alt="Microsoft Certified: Azure AI Fundamentals"
+              />
+            </a>
+            <a
+              href="https://learn.microsoft.com/api/credentials/share/pt-br/FrGabrielBraga/3F20AB64D36469AB?sharingId=E27704F5D47E3F92"
+              title="Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+              className="credencials-item"
+            >
+              <img
+                src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
+                alt="Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+              />
+            </a>
           </div>
         </div>
       </section>

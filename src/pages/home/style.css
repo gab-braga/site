@@ -144,6 +144,7 @@
   margin-top: -70px;
 }
 
+.credencials,
 .skill {
   width: 100%;
   padding: 48px;
@@ -153,6 +154,32 @@
   position: relative;
 }
 
+.credencials-list {
+  display: flex;
+  overflow-x: scroll;
+  justify-content: start;
+  align-items: start;
+  gap: 48px;
+}
+
+.credencials ::-webkit-scrollbar {
+  display: block;
+  padding-top: 1rem;
+  height: 8px;
+}
+
+.credencials ::-webkit-scrollbar-thumb {
+  background-color: #1e1d39;
+  border-radius: 10px;
+}
+
+.credencials-item {
+  display: inline-block;
+  width: 100px;
+  text-decoration: none;
+}
+
+.credencials h2,
 .skill h2 {
   position: absolute;
   top: -24px;
@@ -197,6 +224,10 @@
 }
 
 @media (max-width: 768px) {
+  .credencials h2 {
+    left: calc(50% - 97px);
+  }
+
   .skill h2 {
     left: calc(50% - 86px);
   }
