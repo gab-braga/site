@@ -20,7 +20,7 @@ import spring from "../../assets/icons/skills/flag-spring.svg";
 import react from "../../assets/icons/skills/flag-react.svg";
 import mysql from "../../assets/icons/skills/flag-mysql.svg";
 import tailwind from "../../assets/icons/skills/flag-tailw.svg";
-import Repos from "../../components/Repos";
+import Repos from "../../components/repos";
 import { useEffect, useState } from "react";
 import axios from "axios";
 

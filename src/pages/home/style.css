@@ -176,7 +176,9 @@
 .credencials-item {
   display: inline-block;
   width: 100px;
+  min-width: 100px;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .credencials h2,
