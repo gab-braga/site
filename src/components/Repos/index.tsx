@@ -5,7 +5,6 @@ export default function Repos({
   name,
   language,
   homepage,
-  has_pages,
   created_at,
   stargazers_count,
   html_url,
@@ -35,7 +34,7 @@ export default function Repos({
         <a href={html_url} target="_blank">
           Source
         </a>
-        {has_pages && (
+        {!!homepage && (
           <a href={homepage} target="_blank">
             Demo
           </a>

@@ -19,7 +19,7 @@ import pedeLimpeza from "../assets/images/projects/pede-limpeza.jpg";
 import pokedex from "../assets/images/projects/pokedex.jpg";
 import quizJs from "../assets/images/projects/quiz-js.jpg";
 import terragro from "../assets/images/projects/terragro.jpg";
-import toDoList from "../assets/images/projects/to-do-list.png";
+import schedule from "../assets/images/projects/schedule.png";
 import weather from "../assets/images/projects/weather.jpg";
 
 export const projects: any = [
@@ -31,9 +31,9 @@ export const projects: any = [
     year: 2024,
   },
   {
-    image: toDoList,
-    name: "To-Do List",
-    urlRepo: "https://github.com/gab-braga/to-do-list",
+    image: schedule,
+    name: "Agenda",
+    urlRepo: "https://github.com/gab-braga/schedule-app",
     stacks: ["React", "Firebase"],
     year: 2024,
   },

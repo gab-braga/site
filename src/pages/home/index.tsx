@@ -24,18 +24,19 @@ import Repos from "../../components/repos";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
+const REPO_IDS: number[] = [
+  854928998, // agenda
+  738760520, // cine-dev-api
+  716273614, // marketplace-api
+  713903863, // pokedex-app
+  673901950, // weather-app
+  695648694, // ideal-chair
+  652880343, // terragro
+  384292378, // ponto-de-venda
+];
+
 export default function Home() {
   const [repos, setRepos] = useState<any>([]);
-  const REPO_IDS: number[] = [
-    738760520, // cine-dev-api
-    716273614, // marketplace-api
-    713903863, // pokedex-app
-    673901950, // weather-app
-    695648694, // ideal-chair
-    652880343, // terragro
-    349505303, // music-player
-    384292378, // ponto-de-venda
-  ];
 
   async function fetchRepos() {
     const dataPromise = REPO_IDS.map(async (id) => {
