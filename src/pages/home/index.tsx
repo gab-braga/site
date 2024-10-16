@@ -1,4 +1,8 @@
 import "./style.css";
+import { useEffect, useState } from "react";
+import Repos from "../../elememts/repos";
+import axios from "axios";
+
 import github from "../../assets/icons/github.svg";
 import curriculum from "../../assets/icons/cv.svg";
 import linkedin from "../../assets/icons/linkedin.svg";
@@ -20,9 +24,6 @@ import spring from "../../assets/icons/skills/flag-spring.svg";
 import react from "../../assets/icons/skills/flag-react.svg";
 import mysql from "../../assets/icons/skills/flag-mysql.svg";
 import tailwind from "../../assets/icons/skills/flag-tailw.svg";
-import Repos from "../../components/repos";
-import { useEffect, useState } from "react";
-import axios from "axios";
 
 const REPO_IDS: number[] = [
   854928998, // agenda

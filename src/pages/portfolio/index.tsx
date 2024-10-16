@@ -1,5 +1,5 @@
 import "./style.css";
-import Card from "../../components/card";
+import Card from "../../elememts/card";
 import { projects } from "../../data/projects";
 
 export default function Portfolio() {

@@ -1,14 +1,14 @@
 import "./style.css";
 import star from "../../assets/icons/star.svg";
 
-export default function Repos({
+export default ({
   name,
   language,
   homepage,
   created_at,
   stargazers_count,
   html_url,
-}: any) {
+}: any) => {
   function formatName(name: any) {
     return name?.replaceAll("-", " ");
   }
