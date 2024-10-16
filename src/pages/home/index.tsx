@@ -1,6 +1,6 @@
 import "./style.css";
 import { useEffect, useState } from "react";
-import Repos from "../../elememts/repos";
+import Repos from "../../components/repos";
 import axios from "axios";
 
 import github from "../../assets/icons/github.svg";
