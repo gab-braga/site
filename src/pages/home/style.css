@@ -174,7 +174,10 @@
 }
 
 .credencials-item {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  place-items: center center;
+  gap: 5px;
   width: 100px;
   min-width: 100px;
   text-decoration: none;

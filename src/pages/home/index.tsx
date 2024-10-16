@@ -134,31 +134,37 @@ export default function Home() {
               href="https://learn.microsoft.com/api/credentials/share/pt-br/FrGabrielBraga/9234D97BC58C4695?sharingId=E27704F5D47E3F92"
               title="Microsoft Certified: Azure Fundamentals"
               className="credencials-item"
+              target="_blank"
             >
               <img
                 src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
                 alt="Microsoft Certified: Azure Fundamentals"
               />
+              AZ-900
             </a>
             <a
               href="https://learn.microsoft.com/api/credentials/share/pt-br/FrGabrielBraga/E704822742D98049?sharingId=E27704F5D47E3F92"
               title="Microsoft Certified: Azure AI Fundamentals"
               className="credencials-item"
+              target="_blank"
             >
               <img
                 src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
                 alt="Microsoft Certified: Azure AI Fundamentals"
               />
+              AI-900
             </a>
             <a
               href="https://learn.microsoft.com/api/credentials/share/pt-br/FrGabrielBraga/3F20AB64D36469AB?sharingId=E27704F5D47E3F92"
               title="Microsoft Certified: Security, Compliance, and Identity Fundamentals"
               className="credencials-item"
+              target="_blank"
             >
               <img
                 src="https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main"
                 alt="Microsoft Certified: Security, Compliance, and Identity Fundamentals"
               />
+              SC-900
             </a>
           </div>
         </div>
