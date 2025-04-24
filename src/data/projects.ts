@@ -21,22 +21,9 @@ import quizJs from "../assets/images/projects/quiz-js.jpg";
 import terragro from "../assets/images/projects/terragro.jpg";
 import schedule from "../assets/images/projects/schedule.png";
 import weather from "../assets/images/projects/weather.jpg";
+import vlibrasgpt from "../assets/images/projects/vlibras-gpt.jpg";
 
 export const projects: any = [
-  {
-    image: detetiveSQL,
-    name: "Detetive SQL",
-    urlRepo: "https://sql-detective.web.app/",
-    stacks: ["React", "Firebase"],
-    year: 2024,
-  },
-  {
-    image: schedule,
-    name: "Agenda",
-    urlRepo: "https://github.com/gab-braga/schedule-app",
-    stacks: ["React", "Firebase"],
-    year: 2024,
-  },
   {
     image: cinedev,
     name: "Cine Dev",
@@ -52,10 +39,10 @@ export const projects: any = [
     year: 2023,
   },
   {
-    image: pokedex,
-    name: "Pokedex App",
-    urlRepo: "https://github.com/gab-braga/pokedex-app",
-    stacks: ["React", "Talwind CSS", "TS"],
+    image: terragro,
+    name: "Terragro",
+    urlRepo: "https://github.com/gab-braga/terragro",
+    stacks: ["React", "CSS"],
     year: 2023,
   },
   {
@@ -63,6 +50,27 @@ export const projects: any = [
     name: "Ideal Chair",
     urlRepo: "https://github.com/gab-braga/ideal-chair",
     stacks: ["Bootstrap", "JS"],
+    year: 2023,
+  },
+  {
+    image: detetiveSQL,
+    name: "Detetive SQL",
+    urlRepo: "https://sql-detective.web.app/",
+    stacks: ["React", "Firebase"],
+    year: 2024,
+  },
+  {
+    image: vlibrasgpt,
+    name: "Vlibras GPT",
+    urlRepo: "https://github.com/gab-braga/vlibras-web-chat",
+    stacks: ["React", "OpenAI Platform"],
+    year: 2025,
+  },
+  {
+    image: pokedex,
+    name: "Pokedex App",
+    urlRepo: "https://github.com/gab-braga/pokedex-app",
+    stacks: ["React", "Talwind CSS", "TS"],
     year: 2023,
   },
   {
@@ -80,18 +88,18 @@ export const projects: any = [
     year: 2023,
   },
   {
-    image: terragro,
-    name: "Terragro",
-    urlRepo: "https://github.com/gab-braga/terragro",
-    stacks: ["React", "CSS"],
-    year: 2023,
-  },
-  {
     image: quizJs,
     name: "Quiz",
     urlRepo: "https://github.com/gab-braga/quiz-js",
     stacks: ["JS", "CSS"],
     year: 2023,
+  },
+  {
+    image: schedule,
+    name: "Agenda",
+    urlRepo: "https://github.com/gab-braga/schedule-app",
+    stacks: ["React", "Firebase"],
+    year: 2024,
   },
   {
     image: geometric,

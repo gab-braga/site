@@ -71,7 +71,7 @@ export default function Home() {
                 <img src={github} alt="GitHub" />
               </a>
               <a
-                href="https://docs.google.com/document/d/1s0VBlmN9_SvLOWrwLQy9x-nkZqEfmqCE/edit?usp=sharing&ouid=113140165603632485583&rtpof=true&sd=true"
+                href="https://docs.google.com/document/d/18wrAKWF6Utwr04j5nxnROpH1pm2GQYsIF4_3RHgQQCk/edit?usp=sharing"
                 target="_blank"
               >
                 <img src={curriculum} alt="Currículo" />
